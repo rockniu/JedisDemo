@@ -18,7 +18,7 @@ public class App {
 		// TODO Auto-generated method stub
 		System.out.println(new Date());
 		Jedis  jedis = new Jedis (HOST_NAME,PORT); 
-		jedis.auth("zaqxsw@555.com");
+		jedis.auth("zaqxsw@***.com");
 		jedis.connect();
 		System.out.println("Connected.");
 		
